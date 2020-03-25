@@ -18,7 +18,7 @@
         <dependency>
             <groupId>com.junmeng</groupId>
             <artifactId>spring-rpc-server-demo</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
