@@ -1,2 +1,3 @@
 server:
   port: 8033
+  context-path: /spring-rpc-client-demo

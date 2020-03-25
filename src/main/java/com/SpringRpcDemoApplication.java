@@ -34,7 +34,7 @@ public class SpringRpcDemoApplication {
     @Bean
     public HessianProxyFactoryBean userHessianServiceProxy() {
         HessianProxyFactoryBean hessianProxyFactoryBean = new HessianProxyFactoryBean();
-        hessianProxyFactoryBean.setServiceUrl("http://127.0.0.1:8022/userHessianService");
+        hessianProxyFactoryBean.setServiceUrl("http://127.0.0.1:8044/userHessianService");
         hessianProxyFactoryBean.setServiceInterface(IUserService.class);
         return hessianProxyFactoryBean;
     }
